@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans KR';
+}
+
+html, body , body > div , body > div > div {
+  height: 100%;
+  font-size: 14px;
+}
+
+#app {
+  height: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');

@@ -1,0 +1,31 @@
+.header {
+    width: 94%;
+    padding: 15px 3%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.header a {
+    margin: 0px 15px;
+    text-decoration: none;
+    color: #000000;
+    position: relative;
+    transition: .2s all;
+    font-size: 1.429rem;
+}
+.header a.active ,
+.header a:hover {
+    color: #fb3640;
+    font-weight: 500;
+}
+.header a.active::after,
+.header a:hover::after {
+    position:absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #fb3640;
+    bottom: -16px;
+    left: 0;
+}
